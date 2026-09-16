@@ -1,0 +1,120 @@
+body
+{
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    background-color: #f8fafc;
+    color: #0f172a;
+    
+}
+.line
+{
+    background-color: #cbd5e1;
+}
+h1
+{
+    justify-self: center;
+    font-size: 2.4vw;
+    
+}
+.gameboard
+{
+    width: 30%;
+   height: 30vw;
+     background-color: #ffffff;
+    color: #0f172a;
+    display: grid;
+    grid-template-rows: 1fr 0.1fr 1fr 0.1fr 1fr;
+    grid-template-columns: 1fr 0.1fr 1fr 0.1fr 1fr;
+    
+}
+
+
+.gameboard-ver1
+{
+    grid-row: 1/6;
+    grid-column: 2/3;
+}
+.gameboard-ver2
+{
+    grid-row: 1/6;
+    grid-column: 4/5;
+}
+.gameboard-hor1
+{
+    grid-row: 2/3;
+    grid-column: 1/6;
+}
+.gameboard-hor2
+{
+    grid-row: 4/5;
+    grid-column: 1/6;
+}
+
+.gameboard-grid
+{
+   font-size: clamp(40px, 8vw, 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.startbut
+{
+    height:50%;
+    width:20%;
+    border-radius: 50px;
+    font-size: 1.4vw;
+    background-color: #3b82f6;
+    color: white;
+}
+
+.but_container
+{
+    height: 10vh;
+    width: 75vw;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: #e2e8f0;
+    color: #334155;
+   
+}
+.scorecont
+{
+     height: 10vh;
+    width: 75vw;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e293b;
+    color: #ffffff;
+
+}
+.replaybut
+{
+    height:50%;
+    width:20%;
+    border-radius: 50px;
+    font-size: 1.4vw;
+    background-color: #3b82f6;
+    color: white;
+}
+.winner-banner {
+    display: none;
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 1000;
+    padding: 30px 50px;
+    font-size: 32px;
+     background-color: #e2e8f0;
+    color: #0f172a;
+}
