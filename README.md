@@ -13,7 +13,6 @@ The main goal of this project was to practice organizing JavaScript code using *
 <img width="1852" height="911" alt="image" src="https://github.com/user-attachments/assets/419f80cb-78f6-4736-b654-028f003233f8" />
 
 
-> Add a screenshot of the finished Tic Tac Toe game here.
 
 ## Factory Functions
 
