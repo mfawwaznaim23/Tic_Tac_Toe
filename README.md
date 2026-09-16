@@ -4,6 +4,10 @@ A two-player Tic Tac Toe game built with **HTML, CSS, and JavaScript**.
 
 The main goal of this project was to practice organizing JavaScript code using **Factory Functions**, **Private Variables**, and **IIFEs (Immediately Invoked Function Expressions)**.
 
+## 🎮 Live Demo
+
+👉 [Play Tic Tac Toe](https://mfawwaznaim23.github.io/Tic_Tac_Toe/)
+
 ## Preview
 
 <img width="1852" height="911" alt="image" src="https://github.com/user-attachments/assets/419f80cb-78f6-4736-b654-028f003233f8" />
